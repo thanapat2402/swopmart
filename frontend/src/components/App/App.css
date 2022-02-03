@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.app-header {
+  background-color: #ffff !important;
+}
+.content-App {
+  font-family: "Noto Sans Thai", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.space-align-container {
+  font-family: "Noto Sans Thai", sans-serif;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 8px;
+}
+
+.des-1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 16px;
+}
+
+.des-2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.navbar {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.my-product {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 4px;
+}
+.banner {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.modal {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+.login-form-button {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 12px;
+  width: 472px;
+  height: 40px;
+
+  /* Primary/main */
+
+  background: #12284c !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 6px !important;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 437px;
+}
+.modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 14px;
+}
+
+.text-register {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary/main */
+  color: #12284c;
+}
+
+.add-product-container {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+
+  position: static;
+  width: 1168px;
+  height: 273px;
+  left: 0px;
+  top: 0px;
+
+  /* Other/white */
+
+  background: #ffffff;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.add-form-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 12px;
+
+  width: 176px;
+  height: 40px;
+
+  /* Primary/main */
+
+  background: #12284c !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 6px !important;
+}
+
+.float-right {
+  padding-left: 50%;
+}

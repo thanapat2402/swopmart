@@ -1,0 +1,75 @@
+@baseUrl = http://localhost:4000
+@ContentType = Content-Type: application/json
+@authAccessToken = Authorization: Bearer {{authLogin.response.body.$.accessToken}}
+
+
+
+GET {{baseUrl}}
+{{ContentType}}
+
+{}
+
+###
+# @name authLogin
+POST {{baseUrl}}/auth/login
+{{ContentType}}
+
+{
+    "email": "g11322@gmail.com",
+    "password": "1234"
+}
+
+###
+
+POST {{baseUrl}}/auth/register
+{{ContentType}}
+
+{
+    "password" : "1234",
+    "email" : "g11322@gmail.com",
+    "name" : "golf",
+    "surname": "zilla"
+}
+
+###
+GET {{baseUrl}}/users/me
+{{authAccessToken}}
+###
+
+POST {{baseUrl}}/refresh-token
+{{authAccessToken}}
+
+
+###
+POST {{baseUrl}}/products/add
+{{ContentType}}
+{{authAccessToken}}
+
+{
+    "name":"test2",
+    "price":"2002",
+   "quality":"เหมือนใหม่"
+}
+
+###
+GET {{baseUrl}}/products
+{{ContentType}}
+{{authAccessToken}}
+
+###
+
+GET {{baseUrl}}/products/id
+{{ContentType}}
+{{authAccessToken}}
+
+###
+PATCH  {{baseUrl}}/products/id
+{{ContentType}}
+{{authAccessToken}}
+
+{}
+
+###
+DELETE  {{baseUrl}}/products/id
+{{ContentType}}
+{{authAccessToken}}
