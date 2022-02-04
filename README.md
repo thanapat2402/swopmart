@@ -1,8 +1,8 @@
 # swopmart
 
--go to backend folder and use npm run to connect to database
+-go to backend folder and use npm run to connect to database.
 
--go to frontend and use npm start  as a new terminal to start
+-go to frontend and use npm start  as a new terminal to start.
 
 asignment
 -Login
